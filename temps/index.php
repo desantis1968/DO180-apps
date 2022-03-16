@@ -46,6 +46,7 @@ $temp = $_POST['temp'];
 $scale = $_POST['scale'];
 $converted = convert($temp, $scale);
 echo "The original temperature, $temp, converted is $converted.";
+echo "test modifica applicazione"
 }
 ?>
 
